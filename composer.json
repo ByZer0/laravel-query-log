@@ -1,0 +1,33 @@
+{
+    "name": "by-zer0/laravel-query-log",
+    "description": "Log database queries.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrew Baranov",
+            "email": "zer0sandrew@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0",
+        "illuminate/contracts": "^5.6",
+        "illuminate/database": "^5.6",
+        "illuminate/support": "^5.6",
+        "psr/log": "~1.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "ByZer0\\QueryLog\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ByZer0\\QueryLog\\QueryLogServiceProvider"
+            ]
+        }
+    }
+}
