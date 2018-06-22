@@ -1,6 +1,7 @@
 {
     "name": "by-zer0/laravel-query-log",
     "description": "Log database queries.",
+    "keywords": ["laravel", "db", "log"],
     "type": "library",
     "license": "MIT",
     "authors": [
